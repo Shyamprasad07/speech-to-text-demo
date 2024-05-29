@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Speech to Text Demo</h1>
+        <div class="button-group">
+            <button id="start-btn">Start Speech Recognition</button>
+            <button id="stop-btn">Stop Speech Recognition</button>
+            <button id="clear-btn">Clear Text</button>
+            <button id="download-pdf-btn">Download as PDF</button>
+        </div>
+        <textarea id="text-field" placeholder="Your speech will appear here..."></textarea>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
